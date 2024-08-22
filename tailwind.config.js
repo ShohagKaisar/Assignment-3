@@ -2,8 +2,12 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+     extend: {
+      fontFamily: {
+        manrope: ['"Manrope", sans-serif'],
+      },
   },
+},
   plugins: [
     require('daisyui'),
   ],
