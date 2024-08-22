@@ -1475,6 +1475,74 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-left-3\/4 {
+  left: -75%;
+}
+
+.-top-1\/4 {
+  top: -25%;
+}
+
+.-left-10 {
+  left: -2.5rem;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.-left-0 {
+  left: -0px;
+}
+
+.-left-4 {
+  left: -1rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -1485,19 +1553,14 @@ html {
   margin-right: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .mr-2 {
@@ -1508,16 +1571,8 @@ html {
   margin-right: 1.25rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .inline {
@@ -1544,8 +1599,12 @@ html {
   width: 100%;
 }
 
-.max-w-sm {
-  max-width: 24rem;
+.min-w-full {
+  min-width: 100%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .-rotate-45 {
@@ -1555,6 +1614,10 @@ html {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .items-center {
@@ -1591,6 +1654,14 @@ html {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-dashed {
+  border-style: dashed;
 }
 
 .bg-base-100 {
@@ -1680,6 +1751,14 @@ html {
   padding-bottom: 1rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1688,14 +1767,14 @@ html {
   font-family: "Manrope", sans-serif;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-base {
@@ -1763,9 +1842,27 @@ html {
     flex-direction: row-reverse;
   }
 
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-5xl {
