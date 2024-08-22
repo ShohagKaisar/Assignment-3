@@ -1483,60 +1483,12 @@ html {
   position: relative;
 }
 
-.-left-3\/4 {
-  left: -75%;
-}
-
-.-top-1\/4 {
-  top: -25%;
-}
-
-.-left-10 {
-  left: -2.5rem;
-}
-
-.-top-4 {
-  top: -1rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.left-10 {
-  left: 2.5rem;
+.-left-4 {
+  left: -1rem;
 }
 
 .top-3 {
   top: 0.75rem;
-}
-
-.left-8 {
-  left: 2rem;
-}
-
-.left-6 {
-  left: 1.5rem;
-}
-
-.left-4 {
-  left: 1rem;
-}
-
-.left-1 {
-  left: 0.25rem;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.-left-0 {
-  left: -0px;
-}
-
-.-left-4 {
-  left: -1rem;
 }
 
 .z-10 {
@@ -1749,14 +1701,6 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
