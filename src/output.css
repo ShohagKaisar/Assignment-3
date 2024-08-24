@@ -1515,21 +1515,6 @@ html {
   margin-bottom: 1rem;
 }
 
-.my-3\.5 {
-  margin-top: 0.875rem;
-  margin-bottom: 0.875rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -1570,12 +1555,36 @@ html {
   height: 200px;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[220px\] {
+  height: 220px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[250\] {
+  height: 250;
+}
+
 .w-10\/12 {
   width: 83.333333%;
 }
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .w-fit {
@@ -1587,20 +1596,8 @@ html {
   width: 100%;
 }
 
-.w-44 {
-  width: 11rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[500px\] {
-  width: 500px;
+.w-\[96px\] {
+  width: 96px;
 }
 
 .min-w-full {
@@ -1609,10 +1606,6 @@ html {
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-grow {
-  flex-grow: 1;
 }
 
 .-rotate-45 {
@@ -1689,10 +1682,6 @@ html {
   border-radius: 0.75rem;
 }
 
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -1761,6 +1750,26 @@ html {
   background-color: rgb(254 240 138 / var(--tw-bg-opacity));
 }
 
+.bg-fuchsia-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 171 252 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1785,18 +1794,6 @@ html {
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-1 {
@@ -1920,18 +1917,6 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px) {
-  .sm\:mt-4 {
-    margin-top: 1rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:mt-0 {
     margin-top: 0px;
@@ -1955,6 +1940,10 @@ html {
 
   .lg\:h-full {
     height: 100%;
+  }
+
+  .lg\:h-\[250px\] {
+    height: 250px;
   }
 
   .lg\:w-1\/2 {
@@ -1997,6 +1986,10 @@ html {
 
   .lg\:p-0 {
     padding: 0px;
+  }
+
+  .lg\:p-4 {
+    padding: 1rem;
   }
 
   .lg\:px-10 {
