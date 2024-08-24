@@ -2285,10 +2285,6 @@ html {
   padding-bottom: 1.5rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -2492,6 +2488,20 @@ html {
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:pt-5 {
+    padding-top: 1.25rem;
   }
 
   .lg\:text-left {
